@@ -1,0 +1,115 @@
+/** {
+	outline: 1px solid red;
+}
+*/
+
+
+/*===== GENERAL ======*/
+
+.studentpage {
+	background: #757F9A; /* fallback for old browsers */
+	background: -webkit-linear-gradient(bottom, #757F9A, #D7DDE8);
+	background: -o-linear-gradient(bottom, #757F9A, #D7DDE8);
+	background: linear-gradient(to bottom, #757F9A, #D7DDE8); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}	
+
+.info {
+	color: black;
+	height: 350px;
+	text-align: center;
+}
+
+.card-image img {
+	height: 340px;
+}
+
+
+/* ==== SEARCH BOX ===== */
+.search {
+	background-color: #bdc3c7;
+	padding: 8px;
+	position: inherit;
+	width: 100%;
+}
+.search h2 {
+	font-variant: small-caps;
+	text-align: center;
+}
+.search label {
+	font-size: large;
+}
+.search input {
+	border: 2px solid gray;
+	width: 70%;
+	background-color: white;
+	border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.fa-search {
+	position: relative;
+	z-index: 10;
+	left: -30px;
+}
+
+.search label.formgroup {
+  display: inline;
+  width: auto;
+}
+
+.search select {
+  display: inline;
+  padding: 10px 0 10px 15px;
+  font-size: 1rem;
+  color: #475B62;
+  background: rgba(255,255,255,0.4);
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 10px;
+  outline: 0;
+  width: 120px;
+}
+
+/* ==== DETAILS ==== */
+
+#imageTest {
+  float: left;
+  width: 40%;
+  height: 250px;
+}
+#imageTest img {
+  height: 300px;
+  width: 300px;
+}
+.right-content {
+  width: 60%;
+  float: left;
+}
+.card-title {
+  padding-left: 20px;
+}
+
+.right-content p:first-of-type {
+	padding-left: 20px;
+}
+
+.right-content img:first-of-type {
+	width: 12%;
+	/*height: 10%;*/
+	position: absolute;
+	right: 0;
+	padding-right: 10px;
+}
+
+.social {
+	width: 100px;
+	float: right;
+	margin-top: -10px;
+}
+.social ul {
+	display: inline;
+}
+
+.social li {
+	display: inline-block;
+	margin: 5px;
+}
